@@ -18,6 +18,7 @@ class Model_ComingSoon_Email extends Model {
 	public function add($email)
 	{
 		$valid = Validation::factory(array('email' => $email))
+			->rule('email', 'not_empty')
 			->rule('email', 'email')
 			->rule('email', array($this, 'email_exists'), array(':value', ':validation'));
 
