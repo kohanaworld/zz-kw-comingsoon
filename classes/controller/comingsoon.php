@@ -1,5 +1,13 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
+/**
+ * Template Controller ComingSoon
+ *
+ * @package   KW-ComingSoon
+ * @author	  Kohana-World Development Team
+ * @license	  MIT License
+ * @copyright 2011 Kohana-World Development Team
+ */
 class Controller_ComingSoon extends Controller_Template {
 
 	public $template = 'comingsoon/template';

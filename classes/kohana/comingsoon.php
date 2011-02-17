@@ -1,5 +1,13 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
+/**
+ * Abstract Cladd Kohana_Comingsoon
+ *
+ * @package   KW-ComingSoon
+ * @author	  Kohana-World Development Team
+ * @license	  MIT License
+ * @copyright 2011 Kohana-World Development Team
+ */
 abstract class Kohana_ComingSoon {
 
 	protected static $_config;
