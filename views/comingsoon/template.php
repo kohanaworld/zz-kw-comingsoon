@@ -135,7 +135,7 @@ $imgpath = ComingSoon::config('imgpath');
 			<?php endforeach ?>
 		</ul>
 			<?php echo $content ?>
-		<a href="http://github.com/russiankohana/kohanaworld" class="gitlink">more info</a>
+		<a href="https://github.com/kohana-world/kohana-world.com" class="gitlink"><?php echo __('more info') ?></a>
 	</div>
 </body>
 <script type="text/javascript">

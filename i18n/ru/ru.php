@@ -7,5 +7,6 @@ return array(
 	'Saved! You will be notified when the site will be launched' => 'Записано! Вы будете уведомлены, как только сайт откроется',
 	'email :value already exists'                                => 'адрес :value уже существует',
 	'thank you for your interest'                                => 'спасибо за проявленный интерес',
-	'under construction'                                         => 'идут работы'
+	'under construction'                                         => 'идут работы',
+	'more info'                                                  => 'подробнее'
 );
